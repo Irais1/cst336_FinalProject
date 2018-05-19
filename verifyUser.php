@@ -13,8 +13,8 @@ $data=array(":username" => $_POST['username'],":password"=> sha1($_POST['passwor
 $stmt-> execute($data);
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-echo "Date: ";
-print_r($data);
+//echo "Date: ";
+//print_r($data);
 echo $user['username'];
 //redirecting user to quiz if credentials are valid
 if(isset($user['username'])){

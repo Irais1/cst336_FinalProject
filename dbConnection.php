@@ -5,7 +5,7 @@ function connectToDB() {
 // $db = 'TAM';
 // $user = 'Iris';
 // $pass = 'cst336';
-// $charset = 'utf8mb4';
+$charset = 'utf8mb4';
 $host = "us-cdbr-iron-east-05.cleardb.net";
 $db = "heroku_c8b34ae9cd193df";
 $user = 'bc1d23cb79635b';
