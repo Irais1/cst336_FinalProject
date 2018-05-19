@@ -8,9 +8,9 @@ function connectToDB() {
 // $charset = 'utf8mb4';
 $host = "us-cdbr-iron-east-05.cleardb.net";
 $db = "heroku_c8b34ae9cd193df";
-$username = 'bc1d23cb79635b';
+$user = 'bc1d23cb79635b';
      //echo "username: $username";
-$password = "e4f61d06";
+$pass = "e4f61d06";
     
 //checking whether the URL contains "herokuapp" (using Heroku)
 // if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
