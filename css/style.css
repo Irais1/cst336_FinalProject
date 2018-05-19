@@ -1,0 +1,64 @@
+body{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+body#admin{
+    color: white;
+    background-color: black;
+    background-image: url(https://openclipart.org/image/800px/svg_to_png/257263/Turquoise-Musical-Notes-Typography-No-Background.png);
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+}
+body#searching{
+    color: white;
+    background-color: black; 
+    background-image:url(http://www.pngmart.com/files/3/Water-PNG-Photo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+}
+body#login{
+    color: white;
+    background-color: black; 
+    background-image:url(https://openclipart.org/image/800px/svg_to_png/271422/Prismatic-Musical-Notes-Old-Fashioned-Guitar-No-Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+}
+body#guest{
+    color: white;
+    background-color: black; 
+    background-image:url(https://i0.wp.com/smghparish.com/wp-content/uploads/2015/10/colorful-musical-notes-png-Musical-Notes1.png?resize=300%2C188);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+}
+#pic, #audio {
+    display: inline-block;   
+    vertical-align: top;
+    padding:10px;
+}
+#content-wrapper {
+    top: 100px;
+    position: relative;
+    width:850px;
+    margin:0 auto;
+    text-align: left;
+}
+#artist{
+    font-size: 2em;
+}
+#changes{
+    font-size: 5em;
+}
+#add,#delete,#update {
+    background-color: #66CDAA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
